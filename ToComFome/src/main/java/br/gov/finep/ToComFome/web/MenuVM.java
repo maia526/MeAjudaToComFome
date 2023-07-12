@@ -91,6 +91,9 @@ public class MenuVM implements Serializable {
     public static String urlTelaMVVM() {
         return getUrlAplicacao() + URL_INTRANET + "/privado/telaExemploMVVM.zul";
     }
+    public static String urlTelaBusca() {
+        return getUrlAplicacao() + URL_INTRANET + "/privado/telaBusca.zul";
+    }
     
     public static String urlDetalheEmpresaMVVM() {
         return getUrlAplicacao() + URL_INTRANET + "/privado/detalheEmpresaMVVM.zul";

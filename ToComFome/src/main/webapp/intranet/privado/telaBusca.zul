@@ -1,0 +1,12 @@
+<?page title="Me Ajuda Tô Com Fome - Finep"?>
+<?style href="/resources/css/default.css" type="text/css" ?>
+<?init class="org.zkoss.zk.ui.util.Composition" arg0="/template/template.zul"?>
+<zk xmlns:n="http://www.zkoss.org/2005/zk/native">
+    <vlayout self="@define(content)" apply="br.gov.finep.ToComFome.web.TelaBuscaController" validationMessages="@id('vmsgs')" hflex="true">
+        <div sclass="div_titulo_pagina">
+            <label value="Busca" sclass="titulo_pagina" />
+        </div>
+
+        <vbox id="conteudo" />
+    </vlayout>
+</zk>
