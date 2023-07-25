@@ -16,6 +16,7 @@
             <menuitem id="telaMVVM" iconSclass="z-icon-file-o" label="Tela Exemplo MVVM" href="${vm.urlTelaMVVM()}" if="${vm.isAutenticado()}" />
             <menuitem id="telaMVC" iconSclass="z-icon-file-o" label="Tela Exemplo MVC" href="${vm.urlTelaMVC()}" if="${vm.isAutenticado()}" />
             <menuitem id="telaBusca" iconSclass="z-icon-file-o" label="Tela Busca" href="${vm.urlTelaBusca()}" if="${vm.isAutenticado()}" />
+            <menuitem id="telaRestaurante" iconSclass="z-icon-file-o" label="Tela Restaurante" href="${vm.urlTelaRestaurante()}" if="${vm.isAutenticado()}" />
             <menuitem id="personificar" label="Personificar" iconSclass="z-icon-user" if="${vm.isPersonificacaoPermitida()}" onClick="@command('abrirPersonificar')" />
             <menuitem id="signout" label="Sair" onClick="@command('logout')" iconSclass="z-icon-sign-out" if="${vm.isAutenticado()}" />
         </menubar>

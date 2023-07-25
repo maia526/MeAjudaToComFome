@@ -2,7 +2,7 @@
 <?style href="/resources/css/default.css" type="text/css" ?>
 <?init class="org.zkoss.zk.ui.util.Composition" arg0="/template/template.zul"?>
 <zk xmlns:n="http://www.zkoss.org/2005/zk/native">
-    <vlayout self="@define(content)" apply="br.gov.finep.ToComFome.web.TelaBuscaController" validationMessages="@id('vmsgs')" hflex="true">
+    <vlayout self="@define(content)" apply="br.gov.finep.ToComFome.web.TelaRestauranteController" validationMessages="@id('vmsgs')" hflex="true">
         <vbox id="conteudo" />
     </vlayout>
 </zk>
